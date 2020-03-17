@@ -2,7 +2,7 @@
 
 This repository contains simple data monitoring for Covid-19 using React.js
 
-- [Demo](http://covid19-venu.s3-website-us-east-1.amazonaws.com/)
+- [Demo](https://react-covid-19.now.sh)
 
 **Feature Include**
 
@@ -22,5 +22,4 @@ This repository contains simple data monitoring for Covid-19 using React.js
 
 ## Data Source
 
-Data source from [https://covid19.mathdro.id](https://github.com/mathdroid) API
-
+Data source from [https://covid19.mathdro.id](https://github.com/mathdroid/covid-19-api) API
