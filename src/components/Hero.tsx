@@ -29,6 +29,10 @@ const HeroSubTitle = styled.p`
   font-size: 14px;
   opacity: 0.8;
 `;
+const LogoName = styled.div`
+  position: absolute;
+  left: 0;
+`;
 
 const StyledLogo = styled(Logo)`
   height: 120px;
@@ -43,9 +47,23 @@ const StyledLogo = styled(Logo)`
 
 const Hero = () => (
   <HeroContainer>
+  <LogoName>
+  <div className="logo"><img src="http://www.malakavenu.com/images/logo.png" alt="" /></div>
+  </LogoName>
     <FloatingButton />
     <StyledLogo className="app-logo" />
     <HeroTitle>Covid-19 Coronavirus Outbreak</HeroTitle>
+    <HeroSubTitle>
+      Data sources from{' '}
+      <a
+        href="https://github.com/malakavenu/covid19"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        malakavenu
+      </a>{' '}
+      API
+    </HeroSubTitle>
   </HeroContainer>
 );
 
